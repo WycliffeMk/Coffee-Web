@@ -3,7 +3,7 @@ import img1 from '../assets/img/pic1.png'
 import img2 from '../assets/img/pic1.png'
 import img3 from '../assets/img/pic1.png'
 
-const Review = () => {
+const ReviewCard = () => {
   return (
     <div className=' min-h-screen flex flex-col justify-center lg:px-29 px-5 bg-backgroundColor'>
         <h1 className=' font-semibold text-center text-4xl lg:mt-14 mt-24'>Please Leave Here Your Reviews</h1>
@@ -19,4 +19,4 @@ const Review = () => {
   )
 }
 
-export default Review;
+export default ReviewCard;
